@@ -74,13 +74,24 @@ let us know if you need any help by March 20, 2023.
     <p>
      Please download this
      <a href="http://cran.r-project.org/bin/windows/base/release.htm">.exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a> to install R, and also 
-        install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        If you have separate user and admin accounts, please run the installers as an administrator 
-        by right-clicking on the .exe file and selecting "Run as administrator" instead of double-clicking. 
-        Otherwise, problems may arise later when installing R packages.
+        from <a href="http://cran.r-project.org/index.html">CRAN</a> to install R, and 
+        also install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+        If you have separate user and admin accounts, please run the installers as an 
+        administrator by right-clicking on the .exe file and selecting "Run as administrator" 
+        instead of double-clicking. Otherwise, problems may arise later when installing R packages.
     </p>
-    <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
+     <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
  </div> 
+   
+ <div class="col-md-4">
+    <h4 id="r-macosx">Mac OS X</h4>
+   <p>
+    Please download this
+    <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">.pkg file</a>
+       from <a href="http://cran.r-project.org/index.html">CRAN</a> to install R, and also install 
+       the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+   </p>
+    <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
+  </div>  
     
  
