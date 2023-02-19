@@ -61,7 +61,7 @@ To participate in this Workshop, please install the following software and let u
 <div id="r">
   <h3>R</h3>
   <p>
-    <a href="http://www.r-project.org">R</a> is a free and open-source programming language that is particularly powerful for data exploration, visualization, and statistical analysis. We use <a href="[http://www.rstudio.com/](https://posit.co/downloads/)">RStudio</a> to interact with R.
+    <a href="http://www.r-project.org">R</a> is a free and open-source programming language that is particularly powerful for data exploration, visualization, and statistical analysis. We use <a href="https://posit.co/downloads/">RStudio</a> to interact with R.
   </p>
 
 
