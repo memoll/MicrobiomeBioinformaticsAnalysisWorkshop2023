@@ -1,4 +1,4 @@
-# MicrobiomeBioinformaticsAnalysisWorkshop2023
+# Microbiome Bioinformatics AnalysisWorkshop
 
 #### hhrvhufeiljrlvw
 - hdhjshck
