@@ -17,8 +17,12 @@
   3-5 April 2023
 </p>
 
-
+<h2 id="schedule">Schedule</h2>
+<p id="note">
 This workshop covers the following material:
+</p>
+
+
 - Day1 
   - Introduction to metabarcoding and amplicon sequencing
   - Introduction to R
