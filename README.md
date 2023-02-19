@@ -41,7 +41,7 @@ This workshop covers the following material:
     - PERmutational Multivariate ANalysis Of VAriance (PERMANOVA)
     - Differential analysis 
 
-<h3 id="day2=3">Day 3</h3>
+<h3 id="day3">Day 3</h3>
   - Discussion
     - Wrap up of the results of 16S rRNA gene sequence analysis 
     - Differences between DADA2 pipeline workflows in analyzing 16S vs ITS sequences  
