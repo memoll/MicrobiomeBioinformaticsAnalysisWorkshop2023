@@ -30,7 +30,11 @@
   - Access to Wifi 
   - R and Rstudio installed (instructions <a href="#setup">below</a>)
   - Excel or any text editor installed (e.g. TextWrangler, Notepad, BBEdit, etc.)
-  
+</p>
+
+<p id="contact">
+  <strong>Contact:</strong>
+  "mona.parizadeh@ucalgary.ca" 
 </p>
 
 <h2 id="schedule">Schedule</h2>
@@ -120,7 +124,7 @@ let us know if you need any help by March 20, 2023.
  </div>
 </div>
    
-<h2 id="r-course">Basic R knowledge</h2>
+<h2 id="r-course">R for beginners</h2>
 To follow the workshop, you must have a basic understanding of R.
 Please go through the before attending to the workshop:
    
