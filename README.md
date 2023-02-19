@@ -47,7 +47,7 @@ This workshop covers the following material:
 
  - Introduction to metabarcoding and amplicon sequencing
  - Introduction to R
- - DADA2 Tutorial 
+ - <a href="https://benjjneb.github.io/dada2/tutorial.html">DADA2 Tutorial</a>
 
 <h3 id="day2">Day 2</h3>
 
@@ -65,7 +65,9 @@ This workshop covers the following material:
 
   - Discussion
     - Wrap up of the results of 16S rRNA gene sequence analysis 
-    - Differences between DADA2 pipeline workflows in analyzing 16S vs ITS sequences  
+    - Differences between DADA2 pipeline workflows in analyzing 
+    <a href="https://benjjneb.github.io/dada2/tutorial.html">16S</a> vs 
+    <a href="https://benjjneb.github.io/dada2/ITS_workflow.html">ITS</a> sequences  
   - Statistical analyses of ITS sequences: 
     - Rarefaction 
     - Taxonomic composition 
@@ -76,8 +78,9 @@ This workshop covers the following material:
     
  
 <h2 id="setup">Setup</h2> 
-To participate in this Workshop, please install the following software and 
-let us know if you need any help by March 20, 2023.
+To participate in this Workshop, please install the following <a href="#r">software</a> 
+and <a href="#r-pkg">packages</a>, complete the <a href="#r-course">R courses for beginners</a>, 
+and let us know if you need any help by March 20, 2023.
 
 <div id="r">
   <h3>Install R and RStudio</h3>
@@ -125,7 +128,7 @@ let us know if you need any help by March 20, 2023.
  </div>
 </div>
    
-<h2 id="r-course">R for beginners</h2>
+<h3 id="r-course">R for beginners</h3>
 To follow the workshop, you must have a basic understanding of R.
 Before attending the workshop, please go through the following courses:
 
@@ -133,7 +136,7 @@ Before attending the workshop, please go through the following courses:
   - <a href="http://swcarpentry.github.io/r-novice-inflammation/">Programming with R</a>
 
 
-<h2 id="r-pkg">Install R packages</h2>
+<h3 id="r-pkg">Install R packages</h3>
 Please install and load the following R packages in RStudio: 
 
   - dada2
