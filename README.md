@@ -133,7 +133,15 @@ Before attending the workshop, please go through the following courses:
 
 
 <h2 id="r-pkg">Install R packages</h2>
-Please install and load the following R packages in RStudio: dada2, vegan, phyloseq, tidyr, and DESeq2.
+Please install and load the following R packages in RStudio: 
+
+  - dada2
+  - phyloseq
+  - vegan
+  - ggplot2
+  - tidyr
+  - dplyr
+  - DESeq2
   
    
    
