@@ -24,11 +24,10 @@ This workshop covers the following material:
 
 
 <h3>Day 1</h3>
+ <p> id="day1">
  - Introduction to metabarcoding and amplicon sequencing
  - Introduction to R
- - DADA2 Tutorial
- <p>
-  
+ - DADA2 Tutorial 
  </p>
 
 <div class="row">
