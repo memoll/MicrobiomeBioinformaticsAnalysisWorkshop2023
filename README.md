@@ -42,8 +42,8 @@ This workshop covers the following material:
       <tr> <td>Introduction to phyloseq package in R</td> </tr>
       <tr> <td>Data exploration</td> </tr>
       <tr> <td>Statistical analyses of 16S rRNA gene sequences using R packages:</td>
-        <td>- Rarefaction</td>
-        <td>- Taxonomic composition</td></tr>
+               - Rarefaction
+               - Taxonomic composition</tr>
     </table>
   </div>
   
