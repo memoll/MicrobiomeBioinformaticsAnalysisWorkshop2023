@@ -30,6 +30,7 @@
   - Access to Wifi 
   - R and Rstudio installed (instructions <a href="#setup">below</a>)
   - Excel or any text editor installed (e.g. TextWrangler, Notepad, BBEdit, etc.)
+  
 </p>
 
 <p id="contact">
