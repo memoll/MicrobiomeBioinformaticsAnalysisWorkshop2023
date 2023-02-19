@@ -17,11 +17,24 @@
   3-5 April 2023
 </p>
 
+<p id="obj">
+  <strong>Objective:</strong>
+  Analyzing microbial DNA sequences
+</p>
+
+<p id="requirements">
+  <strong>Requirements:</strong> 
+  - Laptop with a Mac, Linux, or Windows operating system 
+  (not a tablet, Chromebook, etc.) with administrative privileges 
+  - Access to Wifi 
+  - R and Rstudio installed (instructions <a href="#setup">below</a>)
+  - Excel or any text editor installed (e.g. TextWrangler, Notepad, BBEdit, etc.)
+</p>
+
 <h2 id="schedule">Schedule</h2>
 <p id="note">
 This workshop covers the following material:
 </p>
-
 
 <h3 id="day1">Day 1</h3>
 
@@ -105,9 +118,9 @@ let us know if you need any help by March 20, 2023.
  </div>
 </div>
    
-<h2 id="r-course">Get ready</h2>
+<h2 id="r-course">Basic R knowledge</h2>
 To follow the workshop, you must have a basic understanding of R.
-Please 
+Please go through the before attending to the workshop:
    
    
     
