@@ -4,7 +4,7 @@
 
 <p id="by">
   <strong>Led by:</strong>
-  ArrietaLab
+  <a href="https://www.arrietalab.com/home">ArrietaLab</a>
 </p>
 
 <p id="loc">
