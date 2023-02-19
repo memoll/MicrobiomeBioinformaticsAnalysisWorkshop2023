@@ -126,7 +126,15 @@ let us know if you need any help by March 20, 2023.
    
 <h2 id="r-course">R for beginners</h2>
 To follow the workshop, you must have a basic understanding of R.
-Please go through the before attending to the workshop:
+Before attending the workshop, please go through the following courses:
+
+  - <a href="https://app.datacamp.com/learn/courses/free-introduction-to-r">Introduction to R</a>
+  - <a href="http://swcarpentry.github.io/r-novice-inflammation/">Programming with R</a>
+
+
+<h2 id="r-pkg">Install R packages</h2>
+Please install and load the following R packages in RStudio: dada2, vegan, phyloseq, tidyr, and DESeq2.
+  
    
    
     
