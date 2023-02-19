@@ -60,7 +60,7 @@ To participate in this Workshop, please install the following software and
 let us know if you need any help by March 20, 2023.
 
 <div id="r">
-  <h3>R</h3>
+  <h3>Install R and RStudio</h3>
   <p>
     <a href="http://www.r-project.org">R</a> is a free and open-source programming 
     language that is particularly powerful for data exploration, visualization, and 
