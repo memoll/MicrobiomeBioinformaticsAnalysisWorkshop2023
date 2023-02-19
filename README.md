@@ -95,9 +95,9 @@ let us know if you need any help by March 20, 2023.
   <div class="col-md-4">
     <h4 id="r-linux">Linux (Debian, Fedora/Redhat, Ubuntu)</h4>
    <p>
-    Please download R for Linux
-       from <a href="http://cran.r-project.org/index.html">CRAN</a> to install R, and also install 
-       the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+    Please download the binary files for your distribution from
+    <a href="http://cran.r-project.org/index.html">CRAN</a> to install R, and also install 
+    the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
    </p>
   </div>  
  </div>
