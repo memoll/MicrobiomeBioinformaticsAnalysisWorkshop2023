@@ -71,7 +71,6 @@ let us know if you need any help by March 20, 2023.
  <div class="row">
    <div class="col-md-4">
      <h4 id="r-windows">Windows</h4>
-     <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
     <p>
      Please download this
      <a href="http://cran.r-project.org/bin/windows/base/release.htm">.exe file</a>
@@ -81,6 +80,7 @@ let us know if you need any help by March 20, 2023.
         by right-clicking on the .exe file and selecting "Run as administrator" instead of double-clicking. 
         Otherwise, problems may arise later when installing R packages.
     </p>
+    <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
  </div> 
     
  
