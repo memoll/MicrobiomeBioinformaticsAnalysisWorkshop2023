@@ -34,7 +34,7 @@
 
 <p id="contact">
   <strong>Contact:</strong>
-  "mona.parizadeh@ucalgary.ca" 
+  <a href="mailto:{{mona.parizadeh@ucalgary.ca}}">mona.parizadeh@ucalgary.ca</a> 
 </p>
 
 <h2 id="schedule">Schedule</h2>
