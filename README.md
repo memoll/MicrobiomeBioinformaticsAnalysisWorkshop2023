@@ -25,6 +25,17 @@ This workshop covers the following material:
 <div class="row">
   <div class="col-md-6">
     <h3>Day 1</h3>
+  - Introduction to metabarcoding and amplicon sequencing
+  - Introduction to R
+  - DADA2 Tutorial
+  </div>
+  <p>
+  
+  </p>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Day 1</h3>
     <table class="table table-striped">
       <tr> <td>Introduction to metabarcoding and amplicon sequencing</td> </tr>
       <tr> <td>Introduction to R</td> </tr>
