@@ -98,14 +98,16 @@ let us know if you need any help by March 20, 2023.
     Please download the binary files for your distribution from
     <a href="http://cran.r-project.org/index.html">CRAN</a> to install R, or use a package manager 
      (e.g. run <code>sudo apt-get install r-base</code> for Debian/Ubuntu and run
-        <code>sudo yum install R</code> for Fedora). Additionally, please install the
+        <code>sudo yum install R</code> for Fedora/Redhat). Additionally, please install the
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
    </p>
   </div>  
  </div>
 </div>
    
-   
+<h2 id="r-course">Get ready</h2>
+To follow the workshop, you must have a basic understanding of R.
+Please 
    
    
     
