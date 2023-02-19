@@ -29,6 +29,18 @@ This workshop covers the following material:
  - Introduction to R
  - DADA2 Tutorial 
 
+<h3 id="day2">Day 2</h3>
+
+  - Introduction to phyloseq package in R
+  - Data exploration
+  - Statistical analyses of 16S rRNA gene sequences: 
+    - Rarefaction 
+    - Taxonomic composition 
+    - Alpha diversity 
+    - Beta diversity (ordination)
+    - Permutational multivariate analysis of variance (PERMANOVA)
+    - Differential analysis 
+
 
 <div class="row">
   <div class="col-md-6">
