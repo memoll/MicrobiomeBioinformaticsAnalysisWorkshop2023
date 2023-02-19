@@ -41,11 +41,25 @@ This workshop covers the following material:
     <table class="table table-striped">
       <tr> <td>Introduction to phyloseq package in R</td> </tr>
       <tr> <td>Data exploration</td> </tr>
-      <tr> <td>Statistical analyses of 16S rRNA gene sequences using R packages:</td></tr>
-      <tr> <td>- Rarefaction</td></tr>
-      <tr> <td>- Taxonomic composition</td></tr>
+      <tr> <td>Statistical analyses of 16S rRNA gene sequences</td></tr>
     </table>
   </div>
+  <p>
+  
+  </p>
+  
+  <div class="row">
+  <div class="col-md-6">
+    <h3>Day 3</h3>
+    <table class="table table-striped">
+      <tr> <td>Discussion</td> </tr>
+      <tr> <td>Data exploration</td> </tr>
+      <tr> <td>Statistical analyses of ITS sequences</td></tr>
+    </table>
+  </div>
+  <p>
+  
+  </p>
   
 - Day2 
   - Introduction to phyloseq package in R
