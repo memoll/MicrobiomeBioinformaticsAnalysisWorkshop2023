@@ -3,7 +3,7 @@
 <h2 id="general">General Information</h2>
 
 <p id="by">
-  <strong>By:</strong>
+  <strong>Led by:</strong>
   ArrietaLab
 </p>
 
@@ -22,6 +22,16 @@
 This workshop covers the following material:
 </p>
 
+<div class="row">
+  <div class="col-md-6">
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr> <td>Introduction to metabarcoding and amplicon sequencing</td> </tr>
+      <tr> <td>Introduction to R</td> </tr>
+      <tr> <td>DADA2 Tutorial</td> </tr>
+    </table>
+  </div>
+  <p>
 
 - Day1 
   - Introduction to metabarcoding and amplicon sequencing
