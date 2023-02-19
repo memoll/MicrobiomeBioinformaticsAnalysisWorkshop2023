@@ -23,7 +23,7 @@ This workshop covers the following material:
 </p>
 
 
-<h3 id="day1">Day 1</h3>
+<h3 Day 1></h3>
 <p>
  - Introduction to metabarcoding and amplicon sequencing
  - Introduction to R
