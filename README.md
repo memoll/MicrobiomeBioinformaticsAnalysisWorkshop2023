@@ -55,3 +55,7 @@ This workshop covers the following material:
     - Differential analysis 
     
  
+<h2 id="setup">Setup</h2> 
+To participate in this Workshop, please install the following software and let us know if you need any help by March 20, 2023.
+    
+ 
