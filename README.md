@@ -32,11 +32,20 @@ This workshop covers the following material:
     </table>
   </div>
   <p>
+  
+  </p>
 
-- Day1 
-  - Introduction to metabarcoding and amplicon sequencing
-  - Introduction to R
-  - DADA2 Tutorial
+<div class="row">
+  <div class="col-md-6">
+    <h3>Day 2</h3>
+    <table class="table table-striped">
+      <tr> <td>Introduction to phyloseq package in R</td> </tr>
+      <tr> <td>Data exploration</td> </tr>
+      <tr> <td>Statistical analyses of 16S rRNA gene sequences using R packages:</td>
+        <td>- Rarefaction</td>
+        <td>- Taxonomic composition</td></tr>
+    </table>
+  </div>
   
 - Day2 
   - Introduction to phyloseq package in R
