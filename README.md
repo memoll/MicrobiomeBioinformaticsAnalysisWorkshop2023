@@ -54,44 +54,10 @@ This workshop covers the following material:
     - Differential analysis 
     
     
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr> <td>Introduction to metabarcoding and amplicon sequencing</td> </tr>
-      <tr> <td>Introduction to R</td> </tr>
-      <tr> <td>DADA2 Tutorial</td> </tr>
-    </table>
-  </div>
-  <p>
-  
-  </p>
 
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr> <td>Introduction to phyloseq package in R</td> </tr>
-      <tr> <td>Data exploration</td> </tr>
-      <tr> <td>Statistical analyses of 16S rRNA gene sequences</td></tr>
-    </table>
-  </div>
-  <p>
+
+
   
-  </p>
-  
-  <div class="row">
-  <div class="col-md-6">
-    <h3>Day 3</h3>
-    <table class="table table-striped">
-      <tr> <td>Discussion</td> </tr>
-      <tr> <td>Data exploration</td> </tr>
-      <tr> <td>Statistical analyses of ITS sequences</td></tr>
-    </table>
-  </div>
-  <p>
-  
-  </p>
   
 - Day2 
   - Introduction to phyloseq package in R
