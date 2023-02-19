@@ -4,6 +4,8 @@
 #### Location: Oswaldo Cruz Foundation - Rio de Janeiro, Brazil
 #### Date: 3-5 April 2023
 
+# General Information
+
 This workshop covers the following material:
 - Day1 
   - Introduction to metabarcoding and amplicon sequencing
