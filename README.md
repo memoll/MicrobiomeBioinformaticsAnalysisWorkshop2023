@@ -24,9 +24,9 @@ This workshop covers the following material:
 
 
 <h3>Day 1</h3>
- - [ ] Introduction to metabarcoding and amplicon sequencing
- - [ ] Introduction to R
- - [ ] DADA2 Tutorial
+ - Introduction to metabarcoding and amplicon sequencing
+ - Introduction to R
+ - DADA2 Tutorial
  <p>
   
  </p>
