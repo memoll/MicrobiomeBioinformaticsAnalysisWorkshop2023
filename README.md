@@ -1,10 +1,22 @@
 # Microbiome Bioinformatics Analysis Workshop
 
-#### By: ArrietaLab
-#### Location: Oswaldo Cruz Foundation - Rio de Janeiro, Brazil
-#### Date: 3-5 April 2023
+<h2 id="general">General Information</h2>
 
-#### General Information
+<p id="by">
+  <strong>By:</strong>
+  ArrietaLab
+</p>
+
+<p id="loc">
+  <strong>Location:</strong>
+  Oswaldo Cruz Foundation - Rio de Janeiro, Brazil
+</p>
+
+<p id="date">
+  <strong>Dates:</strong>
+  3-5 April 2023
+</p>
+
 
 This workshop covers the following material:
 - Day1 
