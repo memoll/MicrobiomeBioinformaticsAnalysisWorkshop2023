@@ -61,9 +61,25 @@ To participate in this Workshop, please install the following software and let u
 <div id="r">
   <h3>R</h3>
   <p>
-    <a href="http://www.r-project.org">R</a> is a free and open-source programming language that is particularly powerful for data exploration, visualization, and statistical analysis. We use <a href="https://posit.co/downloads/">RStudio</a> to interact with R.
+    <a href="http://www.r-project.org">R</a> is a free and open-source programming language that is particularly powerful for data exploration,    
+    visualization, and statistical analysis. We use <a href="https://posit.co/downloads/">RStudio</a> to interact with R.
   </p>
-
-
+ 
+ <div class="row">
+   <div class="col-md-4">
+     <h4 id="r-windows">Windows</h4>
+     <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
+    <p>
+     Install R by downloading and running
+     <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
+        Also, please install the
+        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+        Note that if you have separate user and admin accounts, you should run the 
+        installers as administrator (right-click on .exe file and select "Run as 
+        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        for example when installing R packages.
+    </p>
+ </div> 
     
  
