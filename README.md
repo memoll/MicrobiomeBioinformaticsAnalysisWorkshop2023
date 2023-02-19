@@ -38,10 +38,22 @@ This workshop covers the following material:
     - Taxonomic composition 
     - Alpha diversity 
     - Beta diversity (ordination)
-    - Permutational multivariate analysis of variance (PERMANOVA)
+    - PERmutational Multivariate ANalysis Of VAriance (PERMANOVA)
     - Differential analysis 
 
-
+<h3 id="day2=3">Day 3</h3>
+- Discussion
+    - Wrap up of the results of 16S rRNA gene sequence analysis 
+    - Differences between DADA2 pipeline workflows in analyzing 16S vs ITS sequences  
+- Statistical analyses of ITS sequences: 
+    - Rarefaction 
+    - Taxonomic composition 
+    - Alpha diversity 
+    - Beta diversity (ordination)
+    - Permutational multivariate analysis of variance (PERMANOVA)
+    - Differential analysis 
+    
+    
 <div class="row">
   <div class="col-md-6">
     <h3>Day 1</h3>
