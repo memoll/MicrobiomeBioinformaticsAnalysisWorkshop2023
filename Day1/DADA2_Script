@@ -1,0 +1,25 @@
+###############################################################
+# Script to process amplicon sequence with DADA2              #
+# Based on DADA2 tutorial by Benjamin Callahan                #
+# Data: Mice - Antibiotic experience                          #
+# By: ArrietaLab - University of Calgary                      #
+# Location: Oswaldo-Cruz Institute - Rio de Janeiro (Brazil)  #
+###############################################################
+
+## 1.1 Install Packages ####
+
+# Install DADA2 package
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager") # Installs BiocManager, enabling you to download packages from the BioConductor repository (similar to CRAN)
+library(BiocManager) # Loads BiocManager package
+
+BiocManager::install("dada2") # Install DADA2 package from the BioConductor repository (only required once)
+library(dada2); packageVersion("dada2") # Loads DADA2 package
+
+# For any installation issues, visit: https://benjjneb.github.io/dada2/dada-installation.html
+
+# Install tidyverse 
+
+install.packages("tidyverse") # Installs tidyverse package (only required once)
+library(tidyverse); packageVersion("tidyverse") # Loads tidyverse package
