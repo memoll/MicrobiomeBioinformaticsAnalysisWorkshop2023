@@ -3,7 +3,8 @@
 # Based on DADA2 tutorial by Benjamin Callahan                #
 # Data: Mice - Antibiotic experience                          #
 # By: ArrietaLab - University of Calgary                      #
-# Author: Mackenzie Gutierrez                                 #
+# Author: Mackenzie Gutierrez                                 # 
+# Dates: 3-5 April 2023                                       #
 # Location: Oswaldo-Cruz Institute - Rio de Janeiro (Brazil)  #
 ###############################################################
 
