@@ -1,5 +1,5 @@
 ###############################################################
-# Script to process amplicon sequence with DADA2              #
+# Script to process amplicon sequencing data with DADA2       #
 # Based on DADA2 tutorial by Benjamin Callahan                #
 # Data: Mice - Antibiotic experience                          #
 # By: ArrietaLab - University of Calgary                      #
