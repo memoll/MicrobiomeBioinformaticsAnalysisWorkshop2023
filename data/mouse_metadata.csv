@@ -1,0 +1,17 @@
+Sample_ID,Sex,Treatment_Group
+1,F,Control
+2,F,Control
+3,F,Control
+4,M,Control
+16,M,Abx
+17,M,Abx
+18,M,Abx
+19,M,Abx
+20,F,Abx
+21,F,Abx
+49,M,Abx+C.albicans
+50,M,Abx+C.albicans
+51,M,Abx+C.albicans
+94,M,Abx+C.albicans
+97,F,Abx+C.albicans
+98,F,Abx+C.albicans
