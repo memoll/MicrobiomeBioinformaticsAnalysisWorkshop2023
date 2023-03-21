@@ -13,7 +13,7 @@
 #  install.packages("BiocManager") # Installs BiocManager, a package that facilitates the download of packages from the BioConductor repository.
 
 #BiocManager::install("phyloseq") # Installs the phyloseq package (McMurdie & Holmes, 2013)
-#install.packages("dyplr") #Installs the dyplr package for data manipulation (Wickham et al., 2014)
+install.packages("dyplr") #Installs the dyplr package for data manipulation (Wickham et al., 2014)
 
 # Next we need to load these packages to be able to use their functions in this session. 
 library(phyloseq); packageVersion("phyloseq")
