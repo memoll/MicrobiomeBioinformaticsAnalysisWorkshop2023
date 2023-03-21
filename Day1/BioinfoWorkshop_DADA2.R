@@ -17,14 +17,14 @@
 #library(BiocManager) # Loads BiocManager package
 
 #BiocManager::install("dada2") # Install DADA2 package from the BioConductor repository (only required once)
-library(dada2); packageVersion("dada2") # Loads DADA2 package
+library(dada2); packageVersion("dada2") # Loads DADA2 package (Callahan et al., 2016)
 
 # For any installation issues, visit: https://benjjneb.github.io/dada2/dada-installation.html
 
 # Install tidyverse 
 
 #install.packages("tidyverse") # Installs tidyverse package (only required once)
-library(tidyverse); packageVersion("tidyverse") # Loads tidyverse package
+library(tidyverse); packageVersion("tidyverse") # Loads tidyverse package for tidier coding (Wickham et al., 2019)
 
 ## 1.2 Set Up R Environment ####
 
