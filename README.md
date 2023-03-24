@@ -143,7 +143,7 @@ Please install and load the following R packages in RStudio:
   - phyloseq
   - vegan
   - ggplot2
-  - tidyr
+  - tidyverse
   - dplyr
   - DESeq2
   
