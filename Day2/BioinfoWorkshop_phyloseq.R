@@ -10,7 +10,7 @@
 # Installation and set up ####
 # We will be using several packages alongside phyloseq. First we need to install these packages (if they are not already installed).
 #if (!requireNamespace("BiocManager", quietly = TRUE))
-#  install.packages("BiocManager") # Installs BiocManager, a package that facilitates the download of packages from the BioConductor repository.
+# install.packages("BiocManager") # Installs BiocManager, a package that facilitates the download of packages from the BioConductor repository.
 
 #BiocManager::install("phyloseq") # Installs the phyloseq package (McMurdie & Holmes, 2013)
 #install.packages("dyplr") #Installs the dyplr package for data manipulation (Wickham et al., 2014)
