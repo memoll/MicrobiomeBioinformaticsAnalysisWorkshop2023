@@ -17,13 +17,21 @@
 
 # Next we need to load these packages to be able to use their functions in this session. 
 library(phyloseq); packageVersion("phyloseq")
+library(tidyverse); packageVersion("tidyverse")
 library(dplyr); packageVersion("dplyr")
 
 # Set the working directory to the appropriate folder (where the input files are stored). 
 setwd("~/Downloads/results/")
 
-# Load phyloseq object ####
-ps = readRDS("ps.rds")
+# Load data
+load("BioinfoWorkshop_DADA2.RData")
+
+# Create phyloseq object ####
+ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows = FALSE),
+               sample_data(mouse_metadata),
+               tax_table(taxa))
+
+ps # Examine object
 
 # Evaluating the phyloseq object
 # We can evaluate the characteristics of the phyloseq object with various accessor functions. 
