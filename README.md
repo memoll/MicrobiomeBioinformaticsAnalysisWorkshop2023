@@ -80,7 +80,7 @@ This workshop covers the following material:
 <h2 id="setup">Setup</h2> 
 To participate in this Workshop, please install the following <a href="#r">software</a> 
 and <a href="#r-pkg">packages</a>, complete the <a href="#r-course">R courses for beginners</a>, 
-and let us know if you need any help by March 20, 2023.
+and let us know if you need any help before the workshop.
 
 <div id="r">
   <h3>Install R and RStudio</h3>
