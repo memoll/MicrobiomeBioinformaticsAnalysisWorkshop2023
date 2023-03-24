@@ -26,6 +26,7 @@ library(dada2); packageVersion("dada2") # Loads DADA2 package (Callahan et al., 
 #install.packages("tidyverse") # Installs tidyverse package (only required once)
 library(tidyverse); packageVersion("tidyverse") # Loads tidyverse package for tidier coding (Wickham et al., 2019)
 
+
 ## 1.2 Set Up R Environment ####
 
 # Prepare R environment
@@ -188,15 +189,6 @@ library(phyloseq); packageVersion("phyloseq") # Loads phyloseq package
 # Load metadata
 mouse_metadata <- read.csv("data/mouse_metadata.csv") 
 rownames(mouse_metadata) <- mouse_metadata$Sample_ID # Change row names to reflect sample IDs
-
-# Create phyloseq object
-ps <- phyloseq(otu_table(seqtab.nochim, taxa_are_rows = FALSE),
-               sample_data(mouse_metadata),
-               tax_table(taxa))
-ps # Examine object
-
-# Save phyloseq object
-saveRDS(ps,"data/ps.rds")
 
 # Save the workspace
 save.image("BioinfoWorkshop_DADA2.RData")
