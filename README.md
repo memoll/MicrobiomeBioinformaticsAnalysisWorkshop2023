@@ -144,7 +144,9 @@ Please install and load the following R packages in RStudio:
   - vegan
   - ggplot2
   - tidyverse
-  - dplyr
+  - dplyr 
+  - BiocGenerics
+  - rstatix
   - DESeq2
   
    
