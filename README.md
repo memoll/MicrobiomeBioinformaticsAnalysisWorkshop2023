@@ -136,17 +136,17 @@ Before attending the workshop, please go through the following courses:
   - <a href="http://swcarpentry.github.io/r-novice-inflammation/">Programming with R</a>
 
 
-<h3 id="r-pkg">Install R packages</h3>
+<h3 id="r-pkg">"<a href=https://github.com/memoll/MicrobiomeBioinformaticsAnalysisWorkshop2023/blob/main/PackageInstallation">Install R packages</a></h3>
 Please install and load the following R packages in RStudio: 
 
   - dada2
   - phyloseq
   - vegan
   - ggplot2
-  - tidyverse
-  - tidyr
+  - tidyverse (or tidyr)
   - dplyr 
   - BiocGenerics
+  - SummarizedExperiment
   - rstatix
   - DESeq2
   
