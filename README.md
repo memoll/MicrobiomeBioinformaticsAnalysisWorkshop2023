@@ -136,8 +136,8 @@ Before attending the workshop, please go through the following courses:
   - <a href="http://swcarpentry.github.io/r-novice-inflammation/">Programming with R</a>
 
 
-<h3 id="r-pkg"><a href="https://github.com/memoll/MicrobiomeBioinformaticsAnalysisWorkshop2023/blob/main/PackageInstallation">Install R packages</a></h3>
-Please install and load the following R packages in RStudio: 
+<h3 id="r-pkg">Install R packages</h3>
+Please install the following <a href="https://github.com/memoll/MicrobiomeBioinformaticsAnalysisWorkshop2023/blob/main/PackageInstallation">R packages</a> in RStudio: 
 
   - dada2
   - phyloseq
@@ -148,9 +148,7 @@ Please install and load the following R packages in RStudio:
   - BiocGenerics
   - SummarizedExperiment
   - rstatix
-  - DESeq2
-  
-   
-   
-    
+  - DESeq2    
  
+<h3 id="db">Download database for DADA2</h3>
+Form <a href="https://zenodo.org/record/4587955#.ZB5c6-zMJa0">Silva 138.1 prokaryotic SSU taxonomic training data formatted for DADA2</a>, please download the <font color="blue">silva_nr99_v138.1_wSpecies_train_set.fa.gz</font> file for taxonomic assignment with DADA2.
