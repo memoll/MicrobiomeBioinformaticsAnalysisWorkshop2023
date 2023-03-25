@@ -151,4 +151,4 @@ Please install the following <a href="https://github.com/memoll/MicrobiomeBioinf
   - DESeq2    
  
 <h3 id="db">Download database for DADA2</h3>
-Form <a href="https://zenodo.org/record/4587955#.ZB5c6-zMJa0">Silva 138.1 prokaryotic SSU taxonomic training data formatted for DADA2</a>, please download the <font color="blue">silva_nr99_v138.1_wSpecies_train_set.fa.gz</font> file for taxonomic assignment with DADA2.
+Please download the silva_nr99_v138.1_wSpecies_train_set.fa.gz file form <a href="https://zenodo.org/record/4587955#.ZB5c6-zMJa0">Silva 138.1 prokaryotic SSU taxonomic training data formatted for DADA2</a> for taxonomic assignment with DADA2.
