@@ -1,37 +1,37 @@
-#Package installation ####
+# Package installation ####
 
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager") # Installs BiocManager, a package that facilitates the download of packages from the BioConductor repository.
 
-# Installs DADA2 package (Callahan et al., 2016)
+# DADA2 to model the errors introduced during amplicon sequencing, and use that error model to infer the true sample composition (Callahan et al., 2016)
 BiocManager::install("dada2") 
 
-# Installs phyloseq package (McMurdie & Holmes, 2013)
+# phyloseq to store all sequencing-related data as single experiment-level object and simplify analyses (McMurdie & Holmes, 2013)
 BiocManager::install("phyloseq") 
 
-# Installs vegan for ecological statistical functions (Oksanen et al., 2020)
+# vegan for ecological statistical functions (Oksanen et al., 2020)
 install.packages("vegan") 
 
-# Installs ggplot2 for plotting (Wickham, 2016)
+# ggplot2 for plotting (Wickham, 2016)
 install.packages("ggplot2") 
 
-# Installs tidyverse for tidier coding (Wickham et al., 2019)
+# tidyverse for tidier coding (Wickham et al., 2019)
 install.packages("tidyverse") 
 
-# Installs tidyr to create tidy data (Wickham et al., 2023)
+# tidyr to create tidy data (Wickham et al., 2023)
 install.packages("tidyr")
 
-#Installs the dyplr package for data manipulation (Wickham et al., 2014)
+# dyplr package for data manipulation (Wickham et al., 2014)
 install.packages("dyplr") 
 
-# Installs BiocGenerics for variance stabilizing transformatiom (Huber et al., 2015)
+# BiocGenerics for variance stabilizing transformatiom (Huber et al., 2015)
 BiocManager::install("BiocGenerics") 
 
-# Installs SummarizedExperiment for variance stabilizing transformatiom (Morgan et al., 2022)
+# SummarizedExperiment for variance stabilizing transformatiom (Morgan et al., 2022)
 BiocManager::install("SummarizedExperiment")
 
-# Installs rstatix for pipe friendly statistical analysis (Kassambara, 2021)
+# rstatix for pipe friendly statistical analysis (Kassambara, 2021)
 install.packages("rstatix")
 
-# Installs DESeq2 for differential abundance analysis (Love et al., 2014)
+# DESeq2 for differential abundance analysis (Love et al., 2014)
 BiocManager::install("DESeq2") 
