@@ -275,7 +275,7 @@ fig <- ggplot(ps_species, aes (x = Treatment_Group, y = Abundance, color = Speci
   scale_color_manual(values = c("#fde725", "#d0e11c", "#a0da39", "#73d056", "#4ac16d", "#2db27d", "#1fa187", "#21918c", "#277f8e"))
 fig
 
-# Differential abundance with DESeq ####
+# Differential abundance with DESeq2 ####
 # Let's look at taxa that are differentially abundant in Control vs Abx
 ps_clean_filt <- ps_clean %>%
   subset_samples(Treatment_Group == "Control" | Treatment_Group == "Abx")
