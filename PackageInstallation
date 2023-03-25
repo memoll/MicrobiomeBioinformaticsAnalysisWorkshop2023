@@ -1,4 +1,4 @@
-#Package installation
+#Package installation ####
 
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager") # Installs BiocManager, a package that facilitates the download of packages from the BioConductor repository.
