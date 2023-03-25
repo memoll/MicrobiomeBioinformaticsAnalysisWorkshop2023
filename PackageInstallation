@@ -1,0 +1,15 @@
+#Package installation 
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager") # Installs BiocManager, a package that facilitates the download of packages from the BioConductor repository.
+
+BiocManager::install("dada2") # Installs DADA2 package (Callahan et al., 2016)
+BiocManager::install("phyloseq") # Installs phyloseq package (McMurdie & Holmes, 2013)
+install.packages("vegan") # Installs vegan for ecological statistical functions (Oksanen et al., 2020)
+install.packages("ggplot2") # Installs ggplot2 for plotting (Wickham, 2016)
+install.packages("tidyverse") # Installs tidyverse for tidier coding (Wickham et al., 2019)
+install.packages("tidyr") # Installs tidyr to create tidy data (Wickham et al., 2023)
+install.packages("dyplr") #Installs the dyplr package for data manipulation (Wickham et al., 2014)
+BiocManager::install("BiocGenerics") # Installs BiocGenerics for variance stabilizing transformatiom (Huber et al., 2015)
+BiocManager::install("SummarizedExperiment") # Installs SummarizedExperiment for variance stabilizing transformatiom (Morgan et al., 2022)
+install.packages("rstatix") # Installs rstatix for pipe friendly statistical analysis (Kassambara, 2021)
+BiocManager::install("DESeq2") # Installs DESeq2 for differential abundance analysis (Love et al., 2014)
