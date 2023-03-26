@@ -143,7 +143,7 @@ Please install the following <a href="https://github.com/memoll/MicrobiomeBioinf
   - phyloseq
   - vegan
   - ggplot2
-  - tidyverse (or tidyr)
+  - tidyverse (or tidyr): <a href="https://datacarpentry.org/R-ecology-lesson/03-dplyr.html">Tutorial by Data Carpentry</a>
   - dplyr 
   - BiocGenerics
   - SummarizedExperiment
