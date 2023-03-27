@@ -132,7 +132,7 @@ and let us know if you need any help before attending.
 To follow the workshop, you must have a basic understanding of R.
 Before attending the workshop, please go through the following courses:
 
-  - <a href="https://app.datacamp.com/learn/courses/free-introduction-to-r">Introduction to R</a>
+  - <a href="https://app.datacamp.com/learn/courses/free-introduction-to-r">Introduction to R (Chapter 1)</a> 
   - <a href="http://swcarpentry.github.io/r-novice-inflammation/">Programming with R</a>
 
 
