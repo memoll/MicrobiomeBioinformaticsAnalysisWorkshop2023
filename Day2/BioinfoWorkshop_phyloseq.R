@@ -61,14 +61,20 @@ sampledata <- data.frame(sample_data(ps)) # extract the sample metadata as a dat
 # First let's measure the sequencing depth for the samples and save these values to the data frame for reference. NOTE: @ for phyloseq objects is similar to $ for data frames in that it specifies the data component to be accessed.  
 ps@sam_data$depth <- sample_sums(ps) # create a new column in the sample data for the total number of ASVs observed for each sample (sequencing depth)
 
+# Denoising data by finding and removing Mitochondria 
+Mitochondria <- subset_taxa(ps, Family=="Mitochondria") #find mitochondrial ASVs
+(ntaxa(Mitochondria)/ntaxa(ps))*100 # percentage of mitochondrial ASVs in dataset
+ps1 <- subset_taxa(ps, (Family!="Mitochondria") | is.na(Family)) #remove mitochondrial ASVs and NA families (if there's any)
+ps1
 # Now let's filter out spurious ASVs. Here is an example of commonly used filtering parameters, but these parameters may vary based on sample type and sequencing run. 
-ps2 <- prune_taxa(taxa_sums(ps) > 1, ps) # Remove singleton ASVs to eliminate spurious taxa.
+ps2 <- prune_taxa(taxa_sums(ps1) > 1, ps1) # Remove singleton ASVs to eliminate spurious taxa.
 ps2 # Check how this changed the ps object
-ps3 <- prune_samples(sample_sums(ps2) >= 1000, ps) # Remove samples with less than 1000 reads, which is a sign of poor quality sequences.
+ps3 <- prune_samples(sample_sums(ps2) >= 1000, ps2) # Remove samples with less than 1000 reads, which is a sign of poor quality sequences.
 ps3 # Check how this changed the ps object
-ps_clean <- filter_taxa(ps3, function(x) sum(x > 3) > (0.2*length(x)), prune = TRUE) # This returns a phyloseq object filtered to include only those taxa seen greater than 3 times in at least 20% of the samples. This threshold has been selected to remove ASVs with small means and large coefficients of variation.
+ps_clean <- filter_taxa(ps3, function(x) sum(x > 3) > (0.1*length(x)), prune = TRUE) # This returns a phyloseq object filtered to include only those taxa seen greater than 3 times in at least 10% of the samples. This threshold has been selected to remove ASVs with small means and large coefficients of variation.
 ps_clean # Check how this changed the ps object. This is the final filtered ps object we will work with.
-
+100-(ntaxa(ps_clean)/ntaxa(ps3))*100 #percentage of filtered ASVs by the above threshold 
+100-(ntaxa(ps_clean)/ntaxa(ps))*100 #percentage of total filtered ASVs
 # Save phyloseq object
 saveRDS(ps_clean,"ps_clean.rds")
 
@@ -85,3 +91,4 @@ print(sdf_read_lost)
 
 # Save the workspace
 save.image("BioinfoWorkshop_phyloseq.RData")
+
