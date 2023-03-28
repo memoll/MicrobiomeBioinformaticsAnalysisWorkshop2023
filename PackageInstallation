@@ -35,3 +35,9 @@ install.packages("rstatix")
 
 # DESeq2 for differential abundance analysis (Love et al., 2014)
 BiocManager::install("DESeq2") 
+
+# ggpubr for plotting statistics from rstatix (Kassambara, 2023) az
+install.packages("ggpubr") 
+
+# RColorBrewer for ggplot color palettes (Neuwirth, 2022)
+install.packages("RColorBrewer") 
