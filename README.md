@@ -144,7 +144,10 @@ Please install the following <a href="https://github.com/memoll/MicrobiomeBioinf
   - BiocGenerics
   - SummarizedExperiment
   - rstatix
-  - DESeq2    
+  - DESeq2  
+  - ggpubr
+  - RColorBrewer
+  - gridExtra
  
 <h3 id="db">Download database for DADA2</h3>
 Please download the <a href="https://zenodo.org/record/4587955/files/silva_nr99_v138.1_wSpecies_train_set.fa.gz?download=1">silva_nr99_v138.1_wSpecies_train_set.fa.gz</a> file for taxonomic assignment with DADA2.
