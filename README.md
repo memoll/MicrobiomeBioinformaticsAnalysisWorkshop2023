@@ -54,7 +54,6 @@ This workshop covers the following material:
   - Introduction to phyloseq package in R
   - Data exploration
   - Statistical analyses of 16S rRNA gene sequences: 
-    - Rarefaction 
     - Taxonomic composition 
     - Alpha diversity 
     - Beta diversity (ordination)
@@ -68,13 +67,7 @@ This workshop covers the following material:
     - Differences between DADA2 pipeline workflows in analyzing 
     <a href="https://benjjneb.github.io/dada2/tutorial.html">16S</a> vs 
     <a href="https://benjjneb.github.io/dada2/ITS_workflow.html">ITS</a> sequences  
-  - Statistical analyses of ITS sequences: 
-    - Rarefaction 
-    - Taxonomic composition 
-    - Alpha diversity 
-    - Beta diversity (ordination)
-    - Permutational multivariate analysis of variance (PERMANOVA)
-    - Differential analysis 
+
     
  
 <h2 id="setup">Setup</h2> 
