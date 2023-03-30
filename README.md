@@ -43,13 +43,13 @@
 This workshop covers the following material:
 </p>
 
-<h3 id="day1">Day 1</h3>
+<h3 id="day1">Day 1 (9 a.m. to 12 p.m. & 1 p.m. to 4 p.m.)</h3>
 
  - Introduction to metabarcoding and amplicon sequencing
  - Introduction to R
  - <a href="https://benjjneb.github.io/dada2/tutorial.html">DADA2 Tutorial</a>
 
-<h3 id="day2">Day 2</h3>
+<h3 id="day2">Day 2 (9 a.m. to 12 p.m. & 1 p.m. to 4 p.m.)</h3>
 
   - Introduction to phyloseq package in R
   - Data exploration
@@ -60,7 +60,7 @@ This workshop covers the following material:
     - PERmutational Multivariate ANalysis Of VAriance (PERMANOVA)
     - Differential analysis 
 
-<h3 id="day3">Day 3</h3>
+<h3 id="day3">Day 3 (9 a.m. to 12 p.m.)</h3>
 
   - Discussion
     - Wrap up of the results of 16S rRNA gene sequence analysis 
