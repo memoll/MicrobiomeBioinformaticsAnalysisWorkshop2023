@@ -41,3 +41,6 @@ install.packages("ggpubr")
 
 # RColorBrewer for ggplot color palettes (Neuwirth, 2022)
 install.packages("RColorBrewer") 
+
+# gridExtra to arrange multiple grid-based plots (Chapman & Hall, 2005)
+install.packages("gridExtra")
