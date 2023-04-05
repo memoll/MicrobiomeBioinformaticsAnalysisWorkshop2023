@@ -21,7 +21,7 @@ library(tidyverse); packageVersion("tidyverse")
 library(dplyr); packageVersion("dplyr")
 
 # Set the working directory to the appropriate folder (where the input files are stored). 
-setwd("~/Downloads/results/")
+setwd("/Users/mackenziegutierrez/Downloads/")
 
 # Load data
 load("BioinfoWorkshop_DADA2.RData")
@@ -35,8 +35,8 @@ ps # Examine object
 
 # Evaluating the phyloseq object
 # We can evaluate the characteristics of the phyloseq object with various accessor functions. 
-#Here we will focus on the functions that are relevant for the downstream analysis in this tutorial. 
-#For additional functions please see phyloseq documentation. 
+# Here we will focus on the functions that are relevant for the downstream analysis in this tutorial. 
+# For additional functions please see phyloseq documentation. 
 head(otu_table(ps)) #for both constructing and accessing the table ASV abundance 
 head(tax_table(ps)) #for both constructing and accessing the table of taxonomic names
 head(sample_data(ps)) #for both constructing and accessing the table of sample-level variables
@@ -66,15 +66,20 @@ Mitochondria <- subset_taxa(ps, Family=="Mitochondria") #find mitochondrial ASVs
 (ntaxa(Mitochondria)/ntaxa(ps))*100 # percentage of mitochondrial ASVs in dataset
 ps1 <- subset_taxa(ps, (Family!="Mitochondria") | is.na(Family)) #remove mitochondrial ASVs and NA families (if there's any)
 ps1
+
 # Now let's filter out spurious ASVs. Here is an example of commonly used filtering parameters, but these parameters may vary based on sample type and sequencing run. 
 ps2 <- prune_taxa(taxa_sums(ps1) > 1, ps1) # Remove singleton ASVs to eliminate spurious taxa.
 ps2 # Check how this changed the ps object
+
 ps3 <- prune_samples(sample_sums(ps2) >= 1000, ps2) # Remove samples with less than 1000 reads, which is a sign of poor quality sequences.
 ps3 # Check how this changed the ps object
+
 ps_clean <- filter_taxa(ps3, function(x) sum(x > 3) > (0.1*length(x)), prune = TRUE) # This returns a phyloseq object filtered to include only those taxa seen greater than 3 times in at least 10% of the samples. This threshold has been selected to remove ASVs with small means and large coefficients of variation.
 ps_clean # Check how this changed the ps object. This is the final filtered ps object we will work with.
-100-(ntaxa(ps_clean)/ntaxa(ps3))*100 #percentage of filtered ASVs by the above threshold 
-100-(ntaxa(ps_clean)/ntaxa(ps))*100 #percentage of total filtered ASVs
+
+100-(ntaxa(ps_clean)/ntaxa(ps3))*100 #percentage of filtered taxa by the above threshold 
+100-(ntaxa(ps_clean)/ntaxa(ps))*100 #percentage of total filtered taxa
+
 # Save phyloseq object
 saveRDS(ps_clean,"ps_clean.rds")
 
