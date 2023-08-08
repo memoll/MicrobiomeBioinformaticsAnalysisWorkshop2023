@@ -98,14 +98,18 @@ and let us know if you need any help before attending.
  </div> 
    
  <div class="col-md-4">
-    <h4 id="r-macosx">Mac OS X</h4>
+   <p> 
+   <h4 id="r-macosx">Mac OS X</h4>
+   </p>
    <p>
     Please download R for macOS
        from <a href="http://cran.r-project.org/index.html">CRAN</a> to install R, and also install 
        the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
    </p>
     <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
-  </div> 
+   </p>
+   <p>
+ </div> 
    
   <div class="col-md-4">
     <h4 id="r-linux">Linux (Debian, Fedora/Redhat, Ubuntu)</h4>
