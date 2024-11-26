@@ -121,7 +121,7 @@ vst_blind <- DESeq2::varianceStabilizingTransformation(ps_clean_deseq, blind = T
 vst_blind_mat <- SummarizedExperiment::assay(vst_blind)
 vst_blind_mat <- t(vst_blind_mat) 
 vst_blind_mat[which(vst_blind_mat < 0)] <- 0 
-dists <- dist(t(assay(ps_clean_deseq)))
+#dists <- dist(t(assay(ps_clean_deseq)))
 
 # Computing Bray-Curtis Dissimilarities and PCoA.
 comm_vst_blind_mat <- vegdist(vst_blind_mat, "bray")
