@@ -107,9 +107,7 @@ and let us know if you need any help before attending.
        the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
    </p>
     <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
-   </p>
-   <p>
- </div> 
+  </div> 
    
   <div class="col-md-4">
     <h4 id="r-linux">Linux (Debian, Fedora/Redhat, Ubuntu)</h4>
@@ -120,10 +118,10 @@ and let us know if you need any help before attending.
         <code>sudo yum install R</code> for Fedora/Redhat). Additionally, please install the
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
    </p>
-  </div>  
+  </div> 
  </div>
 </div>
-   
+    
 <h3 id="r-course">R for beginners</h3>
 To follow the workshop, you must have a basic understanding of R.
 Before attending the workshop, please go through the following courses:
